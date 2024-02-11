@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1 class="display-8 fw-bold">SportsPro Technical Support</h1>
+<p>Sports management software for the sports enthusiast</p>
+
+
+<h1 class="display-8 fw-bold">Admin</h1>
+<div class ="list-group">
+    <a asp-controller="Products" asp-action="Index" class="list-group-item">Manage Products</a>
+    <a asp-controller="Technicians" asp-action="Index" class="list-group-item">Manage Technicians</a>
+    <a asp-controller="Customers" asp-action="Index" class="list-group-item">Manage Customers</a>
+    <a asp-controller="Incidents" asp-action="Index" class="list-group-item">Manage Incidents</a>
+    <a asp-controller="Registration" asp-action="Index" class="list-group-item">Manage Registrations</a>
+</div>
+
+<h1 class="display-8 fw-bold">Technicians</h1>
+<div class="list-group">
+    <a asp-controller="Incidents" asp-action="Update" class="list-group-item">Update Incident</a>
+</div>
